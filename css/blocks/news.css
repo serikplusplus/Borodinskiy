@@ -1,0 +1,25 @@
+.news__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.news {
+    width: 380px;
+}
+
+.news h2 {
+    margin: 0;
+    margin-bottom: 27px;
+}
+
+.news__element__post,
+.news__element__time {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.news__element {
+    margin-bottom: 25px;
+}

@@ -1,0 +1,93 @@
+.main__footer
+{
+    font: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #222222;
+    background-image: url("../../vector/pl.jpg");
+    background-position: 0 0;
+    margin-top: 65px;   
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.main__footer .container
+{
+    display: flex;
+    align-items: flex-start;
+}
+.footer__kontekt a{
+    color:#fff;
+    text-decoration: underline;
+}
+.social__list
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer__kontekt,
+.footer__social,
+.footer__about{
+    margin: 0;
+    padding: 0;
+}
+.footer__kontekt{
+    width: 320px;
+}
+.footer__social{
+    text-align: center;
+    margin-left: 80px;
+    width: 145px;
+}
+.footer__about{
+    text-align: center;
+    margin-left: auto;
+    width: 140px;
+}
+.footer__about p{
+    margin: 0;
+}
+.social__list{
+    display: flex;
+    justify-content: space-between;
+}
+.social__element
+{
+    width: 43px;
+    height: 43px;
+}
+.social__element a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#000;
+}
+.social_button:hover,
+.social_button:focus{
+    background-color:#fff; 
+}
+.social_button:hover path,
+.social_button:focus path{
+    fill: #000000;
+}
+
+.footer__social b{
+    display: block;
+    margin-bottom: 15px;
+}
+.footer__about p{
+    display: block;
+    margin-bottom: 15px;
+}
+.footer__about a{
+    box-sizing: border-box;
+   margin: 0;
+   width: 100%;
+}
+.footer__about a:hover,
+.footer__about a:focus{
+    background-color:#fff;
+    color:#000;
+}

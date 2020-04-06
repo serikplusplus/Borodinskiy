@@ -1,0 +1,55 @@
+.fitures__element {
+    width: 300px;
+    text-align: center;
+}
+
+.fitures__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.fitures {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+}
+
+.fitures h3 {
+    position: relative;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.fitures h3::after {
+
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    bottom: -30px;
+    left: 50%;
+    margin-left: -10px;
+    transform: rotate(45deg);
+
+}
+
+.fitures p {
+    margin: 0 10px;
+
+}
+
+.gallery__botton {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery__botton button {
+    margin: 0;
+    width: 140px;
+    height: auto;
+}

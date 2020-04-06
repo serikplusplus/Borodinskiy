@@ -1,0 +1,17 @@
+.gallery {
+    width: 300px;
+}
+
+.gallery h2 {
+    margin: 0;
+    margin-bottom: 38px;
+}
+
+.gallery figure {
+    margin: 0;
+    margin-bottom: 39px;
+    width: 286px;
+    height: 164px;
+    border: 7px solid #fff;
+
+}

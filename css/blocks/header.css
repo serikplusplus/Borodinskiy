@@ -1,0 +1,82 @@
+.main__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+.logo {
+  order: 3;
+}
+
+.m-nav__list a,
+.user__list a {
+  color: #fff;
+}
+
+.m-nav__list a:hover,
+.user__list a:hover,
+.m-nav__list a:focus,
+.user__list a:focus {
+  background-color: #545353;
+}
+
+.user__open:hover::before,
+.user__open:focus::before {
+  opacity: 1;
+}
+
+.m-nav__list a {
+  display: block;
+  padding: 15px 20px;
+}
+
+.m-nav__list,
+.user__list {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.m-nav__list {
+  display: flex;
+  width: 620px;
+}
+
+.user__list {
+  position: relative;
+  width: 110px;
+}
+
+.main__nav_wrapper {
+  width: 100%;
+  margin-bottom: 60px;
+  background-color: #000;
+}
+
+.main__nav_wrapper .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user__open {
+  display: block;
+  padding: 15px 0;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.user__open::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../vector/login.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  top: 19px;
+  left: 26px;
+  opacity: 0.3;
+}

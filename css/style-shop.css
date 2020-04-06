@@ -1,0 +1,156 @@
+.content_wraper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter_element
+{
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 45px;
+}
+.filter_element legend{
+    padding: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+    line-height: 30px;
+}
+.check,
+.radio
+{
+    display: block;
+    line-height: 24px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.check input[type="checkbox"] + .checkbox_indicator
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #000;
+}
+.check input[type="checkbox"]:focus + .checkbox_indicator
+{
+  border-color: #663d15;
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+.check input[type="checkbox"]:checked + .checkbox_indicator::before,
+.check input[type="checkbox"]:checked + .checkbox_indicator::after{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 1px;
+    width: 15px;
+    height: 2px;
+    background-color:#000;
+}
+.check input[type="checkbox"]:checked + .checkbox_indicator::before{
+    transform: rotate(45deg);
+}
+.check input[type="checkbox"]:checked + .checkbox_indicator::after{
+    transform: rotate(-45deg);
+}
+
+.radio input[type="radio"] + .radio_indicator
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+.radio input[type="radio"]:checked + .radio_indicator
+{
+  border-color: #663d15;
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+.radio input[type="radio"]:checked  + .radio_indicator::before{
+    content: "";
+    position: absolute;
+    top:5px;
+    left: 5px;
+    width: 7px;
+    height: 7px;
+    background-color:#000;
+    border-radius: 50%;
+}
+.goods_filter{
+    width: 220px;
+}
+.goods
+{
+    width: 700px;
+
+}
+.goods_product{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.product_content
+{
+    padding: 15px;
+}
+.product
+{
+    width: 220px;
+    background-color:#fff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.product img{
+    width: 220px;
+    height: 165px;
+}
+.goods aside:nth-child(3n){
+    margin-right: 0;
+}
+
+.product_heading{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.goods_buttons
+{
+    display: block;
+}
+.goods_button
+{
+    margin-right: 8px;
+    padding: 10px 17px;
+    background-color:#000;
+}
+
+.goods_button:hover,
+.goods_button:focus{
+    background-color:#fff; 
+    color: #000;
+}
+.product_price{
+    background-color:#e5e5e5;
+    width: 110px;
+    text-align: center;
+    padding: 12px 0;
+}
+.buy{
+    margin: 0;
+    padding: 10px 19px;
+    display: block;
+}
+.price_buy{
+    margin: 0;
+    display: flex;
+}

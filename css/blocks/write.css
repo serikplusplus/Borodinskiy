@@ -1,0 +1,48 @@
+.write-form__list
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.write-form__element input
+{
+    font: inherit;
+    border:2px solid #000;
+    background-color:transparent;
+}
+.write
+{
+    width: 300px;
+}
+.write h2
+{
+    margin: 0;
+    width: 300px;
+    margin-bottom: 25px;
+}
+.write__content
+{
+    margin: 0;
+    margin-bottom: 8px;
+}
+.write-form__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.write-form__submit{
+    width: 100%;
+}
+.write-form__element label{
+    display: block;
+    padding: 10px 16px;
+}
+.write-form__element input{
+    box-sizing: border-box;
+    width: 140px;
+    padding: 0;
+    display: block;
+    padding: 8px 10px;
+    padding-right: 0;
+}

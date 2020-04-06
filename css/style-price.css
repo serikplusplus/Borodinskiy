@@ -1,0 +1,180 @@
+body {
+    background: #000;
+    background-image: url("../vector/Слой 1.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+
+    color: black;
+}
+
+.main__footer {
+    color: #fff;
+}
+
+.logo {
+    order: 0;
+    margin-left: 20px;
+    margin-bottom: -7px;
+}
+
+.main__header {
+    margin-bottom: 50px;
+}
+
+.main__nav_wrapper {
+    margin-bottom: 0px;
+}
+
+.main__nav_wrapper .container {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main__nav {
+    margin-left: 20px;
+}
+
+.user__nav {
+    margin-left: auto;
+}
+
+
+.clasic {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 48px;
+    line-height: 48px;
+}
+.clasic::before,
+.clasic::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color:#000;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.clasic::before{
+    margin-right: 25px;
+}
+.clasic::after{
+    margin-left: 25px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.dop_nav_list {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.dop_nav_list li {
+    margin-right: 40px;
+}
+
+.dop_nav {
+    margin-bottom: 45px;
+}
+
+.dop_nav_list a {
+    text-decoration: none;
+    color: black;
+}
+
+.romb::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    bottom: 7px;
+    margin-left: 14px;
+    background-color: black;
+    transform: rotate(45deg);
+}
+
+.combination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.combination section {
+    width: 460px;
+}
+
+.advantages h2,
+.price h2 {
+    margin: 0;
+}
+
+.advantages h2 {
+    margin-bottom: 25px;
+}
+
+.price h2 {
+    margin-bottom: 35px;
+}
+
+.advantages_list {
+    margin: 0;
+    list-style-image: url("../vector/Shape 1 copy.png");
+}
+
+.advantages_element {
+    margin-bottom: 20px;
+}
+
+.advantages_list li:last-child {
+    margin: 0;
+}
+
+.price_table {
+    margin: 0;
+    width: 460px;
+    border-collapse: collapse;
+}
+
+.price_table td {
+    width: 230px;
+    border: 2px solid #000;
+}
+
+.price_table td:first-child {
+    padding-left: 19px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.price_table td:nth-child(2) {
+    text-align: center;
+}
+
+.about_us h2,
+.about_us p {
+    margin: 0;
+}
+.about_us h2{
+    margin-bottom: 30px;
+}
+.about_us p{
+    display: block;
+    box-sizing: border-box;
+    width: 460px;
+    padding-right: 80px;
+}
+.about_container{
+    display: flex;
+    justify-content: space-between;
+}
+.main__footer{
+    margin-top: 75px;
+}

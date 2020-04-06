@@ -1,0 +1,118 @@
+@import url(blocks/header.css);
+@import url(blocks/fitures.css);
+@import url(blocks/news.css);
+@import url(blocks/gallery.css);
+@import url(blocks/kontakts.css);
+@import url(blocks/write.css);
+@import url(blocks/footer.css);
+@import url(blocks/popup.css);
+
+html,
+body {
+    min-width: 940px;
+}
+
+img {
+    min-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    background-color: #000;
+    background-image: url("../vector/ol.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+
+    color: #fff;
+    text-transform: uppercase;
+}
+
+input::placeholder {
+    color: #000;
+}
+
+h3,
+h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visualy__hiden:not(:focus):not(:active),
+input[type="checkbox"].visualy__hiden,
+input[type="radio"].visualy__hiden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.block__combine {
+    background-color: #f8f5f2;
+    background-image:
+        url("../vector/Layer 17 copy.png"),
+        url("../vector/Слой 1.jpg");
+    background-position: center, 0 0;
+    background-repeat: no-repeat, repeat;
+
+    color: #000;
+}
+
+.button {
+
+    display: inline-block;
+    margin-right: 16px;
+    padding: 10px 30px;
+    font: inherit;
+
+    background-color: #000;
+    vertical-align: middle;
+
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+
+    border: none;
+
+}
+
+.button:hover,
+.button:focus {
+    background-color: #76512d;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.block__combine {
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+.disable_text
+{
+    color:#aba9a7;
+}
+
